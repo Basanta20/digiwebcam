@@ -1,8 +1,5 @@
 ---
 deployment:
       tasks:
-        - export DEPLOYPATH=/home/<username>/public_html/practices/
-        - /bin/cp * $DEPLOYPATH #Copy specific file to destination from root
-        - /bin/cp /practices/* $DEPLOYPATH #copy specific file from source sub folder
-        - /bin cp * $DEPLOYPATH #copy all from root 
-        - /bin cp /practices/* $DEPLOYPATH #copy all from sub folder root
+        - export DEPLOYPATH=/home2/digiwebcam/public_html/practices/
+        - /bin/cp -r /home2/digiwebcam/repositories/digiwebcam/practices/* $DEPLOYPATH #Copy specific file to destination from root
