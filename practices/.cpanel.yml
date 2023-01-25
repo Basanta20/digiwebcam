@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/digiwebcam/public_html/
+    - export DEPLOYPATH=/home2/digiwebcam/public_html/practices/
     - /bin/cp * $DEPLOYPATH
